@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.poster {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px 40px;
+    border-radius: 25px;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffdd59;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #f5f6fa;
+    margin-bottom: 30px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.topic {
+    background-color: #2ed573;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.duration, .instructor {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
